@@ -96,6 +96,7 @@ body{
     justify-content: center;
     list-style-type: none;
     margin: 5em 0;
+    flex-wrap: wrap;
 }
 .dispositivos__titulo{
     font-size: 48px;
@@ -114,6 +115,7 @@ body{
     justify-content: center;
     list-style-type: none;
     margin-top: 1em;
+    flex-wrap: wrap;
 }
 .lista__link a{
     text-decoration: none;
