@@ -133,3 +133,72 @@ body{
     color: var(--texto-cor-secundaria);
     font-size: 14px;
 }
+
+@media screen and (max-width: 700px) {
+    .conteudo{
+        display: grid;
+        row-gap: 20px;
+    }
+
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "titulo titulo"
+            "imagem imagem"
+            "texto texto";
+    }
+
+    .container__titulo{
+        margin: auto 10px;
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .container__imagem{
+        width: 80%;
+        margin: auto auto 5px auto;
+    }
+    .container__botao{
+        width: 80%;
+        margin: 5px auto;
+    }
+
+    .container__caixa{
+        display: grid;
+        grid-auto-flow: row;
+        margin: auto ;
+    }
+
+    .secundario{ 
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "imagem imagem"
+            "titulo titulo"
+            "texto texto"
+            "botao botao";
+        margin: 0 0;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        margin: auto;
+        grid-area: imagem;
+        width: 50%;
+    }
+
+    .descricao__titulo{
+        grid-area: titulo;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .descricao__texto{
+        grid-area: texto;
+    }
+
+    .dispositivos__titulo{
+        font-size: 33px;
+    }
+}
