@@ -135,10 +135,6 @@ body{
 }
 
 @media screen and (max-width: 700px) {
-    .conteudo{
-        display: grid;
-        row-gap: 20px;
-    }
 
     .container{
         grid-template-columns: 1fr;
