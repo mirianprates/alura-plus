@@ -138,6 +138,7 @@ body{
 
     .container{
         display: block;
+        height: 60vh;
         background-image: none;
     }
 
