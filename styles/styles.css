@@ -136,6 +136,9 @@ body{
 
 @media screen and (max-width: 768px) {
 
+    .principal{
+        margin-top: 70px;
+    }
     .container{
         display: block;
         height: 75vh;
@@ -144,7 +147,7 @@ body{
 
     .container__imagem{
         width: 50vw;
-        margin: 30px auto 30px auto;
+        margin: 50px auto 50px auto;
     }
 
     .container__caixa{
